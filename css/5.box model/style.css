@@ -1,0 +1,30 @@
+.content {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  margin: 50px;
+
+  border-radius: 50px;
+  border-style: dashed;
+}
+
+/*  gradient*/
+
+.linear {
+  background: linear-gradient(blue, pink);
+  height: 300px;
+  width: 300px;
+}
+
+.radial {
+  background: radial-gradient(yellow, red);
+  height: 300px;
+  width: 300px;
+}
+
+.conic {
+  background: conic-gradient(green, blue);
+  height: 300px;
+  width: 300px;
+}

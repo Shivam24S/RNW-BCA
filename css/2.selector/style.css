@@ -1,0 +1,28 @@
+/* universal selector */
+
+/* * {
+  color: blueviolet;
+} */
+
+/* tag selector */
+
+/* p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/*class  */
+
+.p-1 {
+  color: brown;
+  font-size: 50px;
+}
+
+#p-1 {
+  color: rgb(221, 133, 0);
+  font-size: 30px;
+}
+
+.p-2:hover {
+  font-size: 30px;
+  color: chartreuse;
+}

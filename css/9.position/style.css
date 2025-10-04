@@ -1,0 +1,53 @@
+* {
+  margin: 100px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  /* height: 800px;
+  width: 800px; */
+  background-color: gray;
+  border: 2px dotted black;
+  /* position: relative; */
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px dotted black;
+}
+
+.red {
+  background-color: red;
+  position: relative;
+  top: 50px;
+  left: 500px;
+}
+
+.green {
+  background-color: green;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.blue {
+  background-color: blue;
+  position: fixed;
+}
+
+.yellow {
+  background-color: yellow;
+  position: sticky;
+  bottom: 50px;
+}
+
+.orange {
+  background-color: orange;
+  position: static;
+}

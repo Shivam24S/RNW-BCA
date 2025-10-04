@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+  height: 200px;
+  width: 200px;
+  border: 2px dotted gray;
+}
+
+.box2 {
+  height: 200px;
+  width: 200px;
+  border: 2px dotted gray;
+  padding: 20px;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: openSans;
+  src: url(./font/webFonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff);
+}
+
+* {
+  /* inbuilt */
+
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+
+  font-family: openSans;
+}
+
+.box img {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  overflow: hidden;
+  cursor: pointer;
+  /* visibility: hidden; */
+  /* display: none; */
+
+  filter: grayscale(50px);
+  object-fit: cover;
+}
